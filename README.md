@@ -121,10 +121,10 @@ Open http://0.0.0.0:3001/ in your browser.
 
 ## Screenshots
 ### Homepage
-![homepage](image/homepage.png)
+![homepage](./image/homepage.PNG)
 
 ### Visualizations
-![visulize](image/visualize.png)
+![visulize](./image/visualize.PNG)
 
 ### Classify Message
-![query](images/query_message.png)
+![query](./image/query_message.png)
