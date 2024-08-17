@@ -6,30 +6,32 @@ This project is part of the Udacity Data Scientist Nanodegree. The goal of this 
 ## Link Github
 https://github.com/dibang99/disaster_response_pipelines_project
 
-## Files in project
+## Project Structure
 Root Directory
 │
 ├── app/
-|   └── template/
-|       └── go.html
-|       └── master.html
-│   └── run.py
+│ └── run.py # Main script to run the application
 │
 ├── data/
-│   └── process_data.py
+│ └── process.py # Script for data processing and cleaning
 │
 ├── image/
+│ # (Optional) Directory for image files or resources
 │
 ├── models/
-|   └── train_classifier.py
+│ └── train_classifier.py
 │
-├── .DS_Store
+├── .DS_Store # macOS system file for folder attributes
 │
-├── README.md
+├── README.md # This README file
 │
-└── requirements.txt
+└── requirements.txt # File listing the Python packages required
 
 ## Installation
+```bash
+   git clone https://github.com/dibang99/disaster_response_pipelines_project
+```
+
 ```bash
 pip install -r requirements.txt
 ```
