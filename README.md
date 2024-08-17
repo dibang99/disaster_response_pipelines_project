@@ -8,24 +8,21 @@ https://github.com/dibang99/disaster_response_pipelines_project
 
 ## Project Structure
 Root Directory
-│
-├── app/
-│ └── run.py # Main script to run the application
-│
-├── data/
-│ └── process.py # Script for data processing and cleaning
-│
-├── image/
-│ # (Optional) Directory for image files or resources
-│
-├── models/
-│ └── train_classifier.py
-│
-├── .DS_Store # macOS system file for folder attributes
-│
-├── README.md # This README file
-│
-└── requirements.txt # File listing the Python packages required
+- app/
+    - template/
+        - go.html
+        - master.html
+    - run.py # Main script to run the application
+- data/
+    - process.py # Script for data processing and cleaning
+- image/
+    - (Optional) Directory for image files or resources
+- models/
+    - train_classifier.py
+- .DS_Store # macOS system file for folder attributes
+- README.md # This README file
+- requirements.txt # File listing the Python packages required
+
 
 ## Installation
 ```bash
